@@ -2,13 +2,11 @@
 
 This is the code for the Semantic Segmentation.
 
-# Train
+- Train
 `train.py`
-
-# Eval
+- Eval
 `eval_multiscale.py`
-
-# Test
+- Test
 `test.py`
 
 ## Citation
