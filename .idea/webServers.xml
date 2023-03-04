@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34906b7d-c119-41de-aa05-253020b44d85" name="chaosuan" url="http://11.11.100.11">
+        <fileTransfer host="11.11.100.11" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6a39b993-15dc-4dcf-b7f8-74243cce3d45" name="dev" url="http://192.168.193.252">
+        <fileTransfer host="192.168.193.252" port="21400" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21400" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
